@@ -7,6 +7,7 @@ require 'erb'
 require 'pathname'
 require 'yaml'
 require 'active_support'
+`require 'active_support/core_ext'
 require 'json'
 
 class InputError < StandardError; end
